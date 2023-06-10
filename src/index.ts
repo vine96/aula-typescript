@@ -22,4 +22,15 @@ const people: [number, string][] = [
     [3, 'Sketch']
 ];
 
-console.log(age);
+// Intersections
+const productId: string | number = 1
+
+// Enum
+enum Direction {
+    Up = 1,
+    Down = 2
+};
+
+const direction = Direction.Up;
+
+console.log(direction);
