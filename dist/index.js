@@ -28,4 +28,9 @@ var Direction;
 })(Direction || (Direction = {}));
 ;
 const direction = Direction.Up;
+// Type Assertions
+const productName = "Carro";
+// Dessas duas formas funciona:
+// let itemId = productName as String;
+let itemId = productName;
 console.log(direction);
